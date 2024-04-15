@@ -1,0 +1,31 @@
+.homeContainer {
+  background-image: url('/background/school.png');
+  background-size: cover;
+  /* Add blur effect */
+ /* Adjust the blur amount as needed */
+
+  /* OR */
+
+  /* Add darken color effect */
+  background-color: rgba(34, 34, 34, 0.6); /* Adjust the opacity (0.6) for darkness */
+}
+
+.blur-effect {
+  backdrop-filter: blur(8px); /* Adjust the blur amount as needed */
+}
+
+/* styles.module.css */
+
+.signupContainer {
+
+  background-image: linear-gradient(to bottom, #2e3440, #086e38);
+  background-size: cover;
+}
+
+.signinContainer {
+
+  background-image: linear-gradient(to bottom, #292929, #086e38);
+  background-size: cover;
+}
+
+/* Additional styles can be added here for specific elements within the Signup component */
